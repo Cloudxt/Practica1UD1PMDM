@@ -1,4 +1,5 @@
 <resources>
+    <!--Aqui guardaremos el nombre de las variables -->
     <string name="app_name">Practica1UD1PMDM</string>
     <string name="Nombre">Miguel Fernández Marín</string>
     <string name="Curso">2º Dam</string>

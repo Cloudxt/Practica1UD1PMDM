@@ -1,22 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.diurnohlc.practica1ud1pmdm.MainActivity">
-
+    android:orientation="vertical"
+    tools:context="com.diurnohlc.practica1ud1pmdm.MainActivity"
+    android:weightSum="1">
+<!--Con text Color le cambiamos el color de la letra y con background el del fondo Con texStlye ponemos
+la letra en cursiva y text size cambiamos el tamaño-->
     <TextView
         android:id="@+id/text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="379dp"
+        android:layout_height="119dp"
         android:text="@string/Nombre"
-        android:paddingBottom="16dp"
-        android:paddingLeft="50dp"
-        android:paddingTop="16dp"
-        android:paddingRight="16dp"
-        android:textSize="25sp"
-         />
+        android:textSize="30dp"
+        android:layout_weight="0.01"
+        android:textColor="#FFFFFF"
+        android:background="#000000"
+        android:textStyle="italic"
 
+        />
 
-</android.support.constraint.ConstraintLayout>
+    <!--Con text Color le cambiamos el color de la letra y con background el del fondo
+    Con texStlye ponemos la letra en Negrita y size el tamaño-->
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="391dp"
+        android:layout_height="103dp"
+        android:textSize="40dp"
+        android:text="@string/Curso"
+        android:textColor="#FFFFFF"
+        android:background="#000000"
+        android:textStyle="bold"/>
+
+</LinearLayout>
